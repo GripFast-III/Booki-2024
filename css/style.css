@@ -1,11 +1,21 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
 @font-face {
     font-family: 'Raleway';
-    src: url('https://fonts.google.com/specimen/Raleway');
-    src: url('./../Polices/Raleway/Raleway-Italic-VariableFont_wght.ttf;');
-    src: url('./../Polices/Raleway/Raleway-VariableFont_wght.ttf');
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 
 body {
     box-sizing: border-box;
@@ -35,7 +45,7 @@ body {
 }
 
 .ancre .menu li a {
-    color:#0065fc;
+    color:#000;
     text-decoration: none;
     padding: 2rem;
     display: block;
@@ -451,15 +461,19 @@ body footer a {
     line-height: 19px;
 }
 
+.ancre .menu-list:hover {
+    box-shadow: 0px 2px 0px 0px #0065FC inset;
+    -webkit-box-shadow: 0px 2px 0px 0px #0065FC inset;
+    -moz-box-shadow: 0px 2px 0px 0px #0065FC inset;
+}
+
+.ancre .menu li a:hover {
+    color: #0065FC;
+}
+
                                         /* Dimensions écrans desktop */
 @media all and (min-width: 992px)
 {
-    .ancre .menu-list:hover {
-        box-shadow: 0px 2px 0px 0px #0065FC inset;
-        -webkit-box-shadow: 0px 2px 0px 0px #0065FC inset;
-        -moz-box-shadow: 0px 2px 0px 0px #0065FC inset;
-    }
-
     .fa-magnifying-glass {
         display: none;
     }
@@ -489,7 +503,7 @@ body footer a {
     .filters {
         display: flex;
         justify-content: space-between;
-        width: 60%;
+        width: 50%;
         padding-left: 40px;
     }
 
@@ -559,8 +573,8 @@ body footer a {
 @media all and (min-width:768px) and (max-width:991px)
 {
 
-    .ancre .menu li a {
-        color: #000;
+    .ancre .menu li a:hover {
+        color: #0065FC;
     }
 
     .fa-magnifying-glass {
@@ -677,16 +691,12 @@ body footer a {
         width: 50%;
     }
 
-    .ancre .menu-list.active {
-        box-shadow: 0px -2px 0px 0px #0065fc inset;
-        -webkit-box-shadow: 0px -2px 0px 0px #0065fc inset;
-        -moz-box-shadow: 0px -2px 0px 0px #0065fc inset;
+    .ancre .menu-list:hover {
+        box-shadow: 0px 2px 0px 0px #0065FC inset;
+        -webkit-box-shadow: 0px 2px 0px 0px #0065FC;
+        -moz-box-shadow: 0px 2px 0px 0px #0065FC inset;
     }
-
-    .ancre .menu-list.active a {
-        color:#0065FC !important;
-    }
-
+    
     .ancre .menu li {
         margin-left: 0px;
         display: inline-block;
