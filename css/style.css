@@ -60,16 +60,16 @@ body {
 
 .page-title {
     margin-bottom: 20px;
-}
-
-.page-title p {
+    
+    p {
     font-size: 14px;
-}
-
-.page-title h1 {
+    }
+    
+    h1 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
+    }
 }
 
 .search-form {
@@ -146,34 +146,32 @@ body {
     margin-top: 25px;
     margin-bottom: 25px;
     display: flex;
+    .fa {
+        width: 10px;
+        height: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border: solid;
+        border-width: 2px;
+        border-radius: 50%;
+        border-color: var(--main-bg-color);
+        background-color: #FFFF;
+        color: var(--main-color);
+    }
+    i {
+        font-size: 12px;
+        padding-left: 6px;
+    }
+    p {
+        margin-left: 10px;
+    }
 }
 
 .filters-container .filters .disabled-filter i {
     color: var(--main-color);
 }
 
-.title-info .fa {
-    width: 10px;
-    height: 15px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    border: solid;
-    border-width: 2px;
-    border-radius: 50%;
-    border-color: var(--main-bg-color);
-    background-color: #FFFF;
-    color: var(--main-color);
-}
-
-.title-info i {
-    font-size: 12px;
-    padding-left: 6px;
-}
-
-.title-info p {
-    margin-left: 10px;
-}
 
 /* Partie Hébergement et Plus populaires */
 /* Partie qui sépare Hébergements + plus populaires et Activités à Marseille */
@@ -188,16 +186,16 @@ section {
 .titre-section {
     display: flex;
     justify-content: space-between;
+    h2 {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 22px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
 }
 
-.titre-section h2 {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 22px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-}
 
 /* --> Afficher Plus <-- */
 .section-offre .bottom-section {
@@ -243,13 +241,15 @@ section {
     margin-left: 2%;
 }
 
-.section-offre a {
+.section-offre {
+    a {
     text-decoration: none;
+    }
+    h4 {
+        font-weight: bold;
+    }
 }
 
-.section-offre h4 {
-    font-weight: bold;
-}
 
 .card-marseille {
     width: 28%;
@@ -259,6 +259,9 @@ section {
     line-height: 1.15;
     background-color: #FFFF;
     margin: 1.5%;
+    .link {
+        color: black;
+    }
 }
 
 .card-marseille:hover {
@@ -273,23 +276,27 @@ section {
     justify-content: space-between;
 }
 
-.card-marseille .link {
-    color: black;
-}
-
 .card-marseille .stars-marseille {
     color:var(--main-color);
     margin-left: 2%;
 }
 
-.section-pop h2 {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    margin-top: 20px;
-    padding-bottom: 15px;
-    padding-left: 25px;
+.section-pop {
+    h2 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        }
+    a {
+        text-decoration: none;
+    }
+    h4 {
+        font-weight: bold;
+    }
 }
 
 .fa-chart-line {
@@ -335,6 +342,12 @@ section {
 .card-pop {
     box-shadow: 1px 1px 5px -1px;
     border-radius: 20px 20px 20px 20px;
+    .link {
+        color: black;
+        background-color: #FFFF;
+        border-radius: 20px;
+        display: flex;
+    }
 }
 
 .card-pop:hover {
@@ -350,25 +363,14 @@ section {
     color: var(--main-bg-color);
 }
 
-.card-pop .link {
-    color: black;
-    background-color: #FFFF;
-    border-radius: 20px;
-    display: flex;
-}
-
-.section-pop a {
-    text-decoration: none;
-}
-
-.section-pop h4 {
-    font-weight: bold;
-}
-
 /* Activités */
 .activites {
     font-family: 'Raleway';
     padding-bottom: 50px;
+    a {
+        text-decoration: none;
+        width: 100%;
+    }
 }
 
 .titre-section-act {
@@ -406,59 +408,46 @@ section {
     transition: 0.5s;
 }
 
-.activites a {
-    text-decoration: none;
-    width: 100%;
-}
-
 /* Footer */
 footer {
     display: flex;
     background-color: var(--main-bg-color);
     justify-content: center;
-}
-
-footer section {
-    justify-content: center;
-    flex: 1;
-}
-
-body footer ul {
-    list-style-type: none;
-    padding-left: 15%;
-}
-
-body footer {
     padding-bottom: 5%;
+    section {
+        justify-content: center;
+        flex: 1;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 15%;
+    }
+    li {
+        line-height: 2;
+    }
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding-left: 15%;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
 
-body footer a:hover {
+footer a:hover {
     text-decoration: underline;
 }
 
-body footer a:visited {
+footer a:visited {
     color: inherit;
-}
-
-body footer li {
-    line-height: 2;
-}
-
-body footer h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-left: 15%;
-}
-
-body footer a {
-    text-decoration: none;
-    color: inherit;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
 }
 
 .anchor .menu-list:hover {
@@ -492,12 +481,11 @@ body footer a {
         width: 100%;
         height: 40px;
         display: flex;
-    }
-
-    .filters-container h2 {
-        align-self: center;
-        font-size: 18px;
-        font-weight: bold;
+        h2 {
+            align-self: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
     }
 
     .filters {
@@ -595,12 +583,11 @@ body footer a {
         width: 100%;
         height: 40px;
         display: flex;
-    }
-
-    .filters-container h2 {
-        align-self: center;
-        font-size: 18px;
-        font-weight: bold;
+        h2 {
+            align-self: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
     }
 
     .filters {
@@ -710,16 +697,15 @@ body footer a {
         display: block;
     }
 
-    .page-title h1 {
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 5px;
-        width: 69%;
-    }
-
     .page-title {
         margin-bottom: 20px;
         margin-left: 5%;
+        h1 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            width: 69%;
+        }
     }
 
     .search-form {
@@ -755,11 +741,10 @@ body footer a {
         display: flex;
         flex-direction: column;
         margin-left: 5%;
-    }
-
-    .filters-container h2 {
-        font-size: 18px;
-        font-weight: bold;
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+        }
     }
 
     .filters {
@@ -781,10 +766,9 @@ body footer a {
 
     .title-info {
         margin-left: 5%;
-    }
-
-    .title-info p {
-        width: 81%;
+        p {
+            width: 81%;
+        }
     }
 
     .main-section {
@@ -803,6 +787,9 @@ body footer a {
         height: 100%;
         width: 100%;
         background: var(--main-bg-color);
+        h4 {
+            width: 85%;
+        }
     }
 
     .afficher-plus {
@@ -854,10 +841,6 @@ body footer a {
         margin-bottom: 2%;
     }
 
-    .section-pop h4 {
-        width: 85%;
-    }
-
     /* Activités */
     .activites {
         margin: 4.5%;
@@ -877,32 +860,27 @@ body footer a {
 
     .card-act {
         margin-bottom: 2%;
-    }
-
-    .card-act .text-container-act {
-        margin-top: -2px;
-        font-weight: bold;
-        color:black;
-    }
-
-    .card-act .titre-container-act {
-        margin: 15px;
-    }
-
-    .card-act .activites-photos {
-        height: 11rem;
+        .text-container-act {
+            margin-top: -2px;
+            font-weight: bold;
+            color:black;
+        }
+        .titre-container-act {
+            margin: 15px;
+        }
+        .activites-photos {
+            height: 11rem;
+        }
     }
 
     /* Footer */
     footer {
         flex-direction: column;
-    }
-
-    body footer ul {
-        padding-left: 5%;
-    }
-
-    body footer h3 {
-    padding-left: 5%;
+        ul {
+            padding-left: 5%;
+        }
+        h3 {
+            padding-left: 5%;
+        }
     }
 }
