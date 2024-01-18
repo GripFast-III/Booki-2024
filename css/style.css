@@ -32,19 +32,19 @@ body {
     vertical-align: middle;
 }
 
-.ancre .menu {
+.anchor .menu {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
 
-.ancre .menu li {
+.anchor .menu li {
     margin-left: 0px;
     display: inline-block;
     text-align: center;
 }
 
-.ancre .menu li a {
+.anchor .menu li a {
     color:#000;
     text-decoration: none;
     padding: 2rem;
@@ -72,17 +72,17 @@ body {
     margin-bottom: 5px;
 }
 
-.searchform {
+.search-form {
     font-size: 100%;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
-.searchform button:hover {
+.search-form button:hover {
     cursor: pointer;
 }
 
-.searchbutton {
+.search-button {
     border-radius: 0px 10px 10px 0px;
     margin-left: -5px;
     color: #FFFF;
@@ -92,12 +92,12 @@ body {
     border-style: none;
 }
 
-.searchbutton-mob {
+.search-button-mob {
     display: none;
     border-radius: 0px 15px 15px 0px; 
 }
 
-.searchbar {
+.search-bar {
     font-size: 18px;
     border-radius: 1px;
     border-color: var(--main-bg-color);
@@ -181,7 +181,7 @@ section {
     padding-top: 50px;
 }
 
-.mainsection {
+.main-section {
     display: flex;
 }
 
@@ -200,7 +200,7 @@ section {
 }
 
 /* --> Afficher Plus <-- */
-.section_offre .bottom_section {
+.section-offre .bottom-section {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 18px;
@@ -243,11 +243,11 @@ section {
     margin-left: 2%;
 }
 
-.section_offre a {
+.section-offre a {
     text-decoration: none;
 }
 
-.section_offre h4 {
+.section-offre h4 {
     font-weight: bold;
 }
 
@@ -282,7 +282,7 @@ section {
     margin-left: 2%;
 }
 
-.section_pop h2 {
+.section-pop h2 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -357,11 +357,11 @@ section {
     display: flex;
 }
 
-.section_pop a {
+.section-pop a {
     text-decoration: none;
 }
 
-.section_pop h4 {
+.section-pop h4 {
     font-weight: bold;
 }
 
@@ -461,13 +461,13 @@ body footer a {
     line-height: 19px;
 }
 
-.ancre .menu-list:hover {
+.anchor .menu-list:hover {
     box-shadow: 0px 2px 0px 0px var(--main-color) inset;
     -webkit-box-shadow: 0px 2px 0px 0px var(--main-color) inset;
     -moz-box-shadow: 0px 2px 0px 0px var(--main-color) inset;
 }
 
-.ancre .menu li a:hover {
+.anchor .menu li a:hover {
     color: var(--main-color);
 }
 
@@ -478,7 +478,7 @@ body footer a {
         display: none;
     }
 
-    .locbutton {
+    .loc-button {
         border-radius: 0px;
         border-radius: 15px 0px 0px 15px;
         height: 32px;
@@ -507,11 +507,11 @@ body footer a {
         padding-left: 40px;
     }
 
-    .mainsection {
+    .main-section {
         justify-content: space-between;
     }
 
-    .section_offre {
+    .section-offre {
         border-radius: 20px;
         background: var(--main-bg-color);
         column-gap: 2rem;
@@ -522,7 +522,7 @@ body footer a {
         margin-right: 20px;
     }
 
-    .section_pop {
+    .section-pop {
         height: 100%;
         border-radius: 20px;
         background: var(--main-bg-color);
@@ -573,7 +573,7 @@ body footer a {
 @media all and (min-width:768px) and (max-width:991px)
 {
 
-    .ancre .menu li a:hover {
+    .anchor .menu li a:hover {
         color: var(--main-color);
     }
 
@@ -581,7 +581,7 @@ body footer a {
         display: none;
     }
 
-    .locbutton {
+    .loc-button {
         border-radius: 0px;
         border-radius: 15px 0px 0px 15px;
         height: 32px;
@@ -610,11 +610,11 @@ body footer a {
         padding-left: 40px;
     }
 
-    .mainsection {
+    .main-section {
         flex-direction: column;
     }
 
-    .section_offre {
+    .section-offre {
         border-radius: 20px;
         background: var(--main-bg-color);
         column-gap: 2rem;
@@ -624,7 +624,7 @@ body footer a {
         margin-bottom: 40px;
     }
 
-    .section_pop {
+    .section-pop {
         border-radius: 20px;
         background: var(--main-bg-color);
     }
@@ -678,32 +678,32 @@ body footer a {
         align-items: center;
     }
 
-    .ancre {
+    .anchor {
         width: 100%;
         align-items: center;
         justify-content: center;
     }
 
-    .ancre .menu-list {
+    .anchor .menu-list {
         box-shadow: 0px -2px 0px 0px var(--main-bg-color) inset;
         -webkit-box-shadow: 0px -2px 0px 0px var(--main-bg-color) inset;
         -moz-box-shadow: 0px -2px 0px 0px var(--main-bg-color) inset;
         width: 50%;
     }
 
-    .ancre .menu-list:hover {
+    .anchor .menu-list:hover {
         box-shadow: 0px 2px 0px 0px var(--main-color) inset;
         -webkit-box-shadow: 0px 2px 0px 0px var(--main-color);
         -moz-box-shadow: 0px 2px 0px 0px var(--main-color) inset;
     }
     
-    .ancre .menu li {
+    .anchor .menu li {
         margin-left: 0px;
         display: inline-block;
         text-align: center;
     }
 
-    .ancre .menu .menu-list a {
+    .anchor .menu .menu-list a {
         color:#000;
         text-decoration: none;
         padding: 2rem;
@@ -722,18 +722,18 @@ body footer a {
         margin-left: 5%;
     }
 
-    .searchform {
+    .search-form {
         font-size: 100%;
         padding-top: 10px;
         padding-bottom: 20px;
         margin-left: 5%;
     }
 
-    .searchbar {
+    .search-bar {
         width: 50%;
     }
 
-    .searchbutton {
+    .search-button {
         width: 40px;
     }
 
@@ -741,7 +741,7 @@ body footer a {
         display: none;
     }
 
-    .locbutton {
+    .loc-button {
         border-radius: 0px;
         border-radius: 15px 0px 0px 15px;
         height: 32px;
@@ -772,7 +772,7 @@ body footer a {
         justify-content: left;
     }
 
-    .bouton {
+    .button {
         height: 2.5rem;
         width: 48%;
         margin-top: 2%;
@@ -787,19 +787,19 @@ body footer a {
         width: 81%;
     }
 
-    .mainsection {
+    .main-section {
         flex-wrap: wrap-reverse;
         justify-content: space-between;
         width: 100%;
     }
 
-    .section_offre {
+    .section-offre {
         width: 100%;
         margin-right: 7.5%;
         margin-left: 2.5%;
     }
 
-    .section_pop {
+    .section-pop {
         height: 100%;
         width: 100%;
         background: var(--main-bg-color);
@@ -854,7 +854,7 @@ body footer a {
         margin-bottom: 2%;
     }
 
-    .section_pop h4 {
+    .section-pop h4 {
         width: 85%;
     }
 
