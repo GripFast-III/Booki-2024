@@ -63,12 +63,14 @@ body {
     
     p {
     font-size: 14px;
+    line-height: 18px;
     }
     
     h1 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
+    line-height: 25px;
     }
 }
 
@@ -170,6 +172,7 @@ body {
     }
     p {
         margin-left: 10px;
+        line-height: 19px;
     }
 }
 
@@ -198,6 +201,7 @@ section {
         padding-top: 15px;
         padding-bottom: 15px;
         padding-left: 15px;
+        line-height: 25px;
     }
 }
 
@@ -214,6 +218,7 @@ section {
     padding-top: 4%;
     padding-left: 2%;
     font-weight: bolder;
+    line-height: 21px;
 }
 
 .afficher-plus {
@@ -252,6 +257,7 @@ section {
     }
     h4 {
         font-weight: bold;
+        line-height: 19px;
     }
 }
 
@@ -385,6 +391,9 @@ section {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 25px;
+    h2 {
+        line-height: 25px;
+    }
 }
 
 .list-cards-activites {
@@ -411,6 +420,10 @@ section {
 .card-act:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transition: 0.5s;
+}
+
+.titre-container-act {
+    line-height: 21px;
 }
 
 /* Footer */
@@ -490,6 +503,7 @@ footer a:visited {
             align-self: center;
             font-size: 18px;
             font-weight: bold;
+            line-height: 21px;
         }
     }
 
