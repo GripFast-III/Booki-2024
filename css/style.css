@@ -60,18 +60,18 @@ body {
 
 .page-title {
     margin-bottom: 20px;
+}
     
-    p {
-    font-size: 14px;
-    line-height: 18px;
-    }
+.page-title p {
+font-size: 14px;
+line-height: 18px;
+}
     
-    h1 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    line-height: 25px;
-    }
+.page-title h1 {
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 5px;
+line-height: 25px;
 }
 
 .search-form {
@@ -90,7 +90,8 @@ body {
     color: #FFFF;
     background-color: var(--main-color);
     border-color: var(--main-color);
-    height: 32px;
+    height: 50px;
+    width: 132px;
     border-style: none;
 }
 
@@ -105,7 +106,7 @@ body {
     border-color: var(--main-bg-color);
     border-style: solid;
     padding-bottom: 4px;
-    height: 23px;
+    height: 41px;
     margin-left: -5px;
     margin-top: 1px;
     display: inline-block;
@@ -153,27 +154,29 @@ body {
     margin-top: 25px;
     margin-bottom: 25px;
     display: flex;
-    .fa {
-        width: 10px;
-        height: 15px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        border: solid;
-        border-width: 2px;
-        border-radius: 50%;
-        border-color: var(--main-bg-color);
-        background-color: #FFFF;
-        color: var(--main-color);
-    }
-    i {
-        font-size: 12px;
-        padding-left: 6px;
-    }
-    p {
-        margin-left: 10px;
-        line-height: 19px;
-    }
+}   
+.title-info .fa {
+    width: 10px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    border-color: var(--main-bg-color);
+    background-color: #FFFF;
+    color: var(--main-color);
+}
+
+.title-info i {
+    font-size: 12px;
+    padding-left: 6px;
+}
+
+.title-info p {
+    margin-left: 10px;
+    line-height: 19px;
 }
 
 .filters-container .filters .disabled-filter i {
@@ -194,17 +197,17 @@ section {
 .titre-section {
     display: flex;
     justify-content: space-between;
-    h2 {
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 22px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 15px;
-        line-height: 25px;
-    }
 }
 
+.titre-section h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    line-height: 25px;
+}
 
 /* --> Afficher Plus <-- */
 .section-offre .bottom-section {
@@ -251,16 +254,14 @@ section {
     margin-left: 2%;
 }
 
-.section-offre {
-    a {
-    text-decoration: none;
-    }
-    h4 {
-        font-weight: bold;
-        line-height: 19px;
-    }
+.section-offre a {
+text-decoration: none;
 }
 
+.section-offre h4 {
+    font-weight: bold;
+    line-height: 19px;
+}
 
 .card-marseille {
     width: 28%;
@@ -270,9 +271,10 @@ section {
     line-height: 1.15;
     background-color: #FFFF;
     margin: 1.5%;
-    .link {
-        color: black;
-    }
+}
+
+.card-marseille .link {
+    color: black;
 }
 
 .card-marseille:hover {
@@ -292,22 +294,22 @@ section {
     margin-left: 2%;
 }
 
-.section-pop {
-    h2 {
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        margin-top: 20px;
-        padding-bottom: 15px;
-        padding-left: 25px;
-        }
-    a {
-        text-decoration: none;
-    }
-    h4 {
-        font-weight: bold;
-    }
+.section-pop h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+
+.section-pop a {
+    text-decoration: none;
+}
+
+.section-pop h4 {
+    font-weight: bold;
 }
 
 .fa-chart-line {
@@ -353,12 +355,13 @@ section {
 .card-pop {
     box-shadow: 1px 1px 5px -1px;
     border-radius: 20px 20px 20px 20px;
-    .link {
-        color: black;
-        background-color: #FFFF;
-        border-radius: 20px;
-        display: flex;
-    }
+}
+
+.card-pop .link {
+    color: black;
+    background-color: #FFFF;
+    border-radius: 20px;
+    display: flex;
 }
 
 .card-pop:hover {
@@ -378,10 +381,11 @@ section {
 .activites {
     font-family: 'Raleway';
     padding-bottom: 50px;
-    a {
-        text-decoration: none;
-        width: 100%;
-    }
+}
+
+.activites a {
+    text-decoration: none;
+    width: 100%;
 }
 
 .titre-section-act {
@@ -391,9 +395,10 @@ section {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 25px;
-    h2 {
-        line-height: 25px;
-    }
+}
+
+.titre-section-act h2 {
+    line-height: 25px;
 }
 
 .list-cards-activites {
@@ -432,33 +437,39 @@ footer {
     background-color: var(--main-bg-color);
     justify-content: center;
     padding-bottom: 5%;
-    section {
-        justify-content: center;
-        flex: 1;
-    }
-    ul {
-        list-style-type: none;
-        padding-left: 15%;
-    }
-    li {
-        line-height: 2;
-    }
-    h3 {
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 20px;
-        padding-left: 15%;
-    }
-    a {
-        text-decoration: none;
-        color: inherit;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-    }
 }
+
+footer section {
+    justify-content: center;
+    flex: 1;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 15%;
+}
+
+footer li {
+    line-height: 2;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-left: 15%;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
 
 footer a:hover {
     text-decoration: underline;
@@ -478,102 +489,99 @@ footer a:visited {
     color: var(--main-color);
 }
 
-                                        /* Dimensions écrans desktop */
-@media all and (min-width: 992px)
-{
-    .fa-magnifying-glass {
-        display: none;
-    }
+.fa-magnifying-glass {
+    display: none;
+}
 
-    .loc-button {
-        border-radius: 0px;
-        border-radius: 15px 0px 0px 15px;
-        height: 32px;
-        width: 40px;
-        background-color: var(--main-bg-color);
-        border-color: var(--main-bg-color);
-        border-style: none;
-    }
+.loc-button {
+    border-radius: 0px;
+    border-radius: 15px 0px 0px 15px;
+    height: 50px;
+    width: 50px;
+    background-color: var(--main-bg-color);
+    border-color: var(--main-bg-color);
+    border-style: none;
+}
 
-    .filters-container {
-        width: 100%;
-        height: 40px;
-        display: flex;
-        h2 {
-            align-self: center;
-            font-size: 18px;
-            font-weight: bold;
-            line-height: 21px;
-        }
-    }
+.filters-container {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
 
-    .filters {
-        display: flex;
-        justify-content: space-between;
-        width: 50%;
-        padding-left: 40px;
-    }
+.filters-container h2 {
+    align-self: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+}
 
-    .main-section {
-        justify-content: space-between;
-    }
+.filters {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 40px;
+}
 
-    .section-offre {
-        border-radius: 20px;
-        background: var(--main-bg-color);
-        column-gap: 2rem;
-        row-gap: 2rem;
-        border: 20px solid;
-        border-color: var(--main-bg-color);
-        flex: 4;
-        margin-right: 20px;
-    }
+.main-section {
+    justify-content: space-between;
+}
 
-    .section-pop {
-        height: 100%;
-        border-radius: 20px;
-        background: var(--main-bg-color);
-        flex: 2;
-    }
+.section-offre {
+    border-radius: 20px;
+    background: var(--main-bg-color);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    border: 20px solid;
+    border-color: var(--main-bg-color);
+    flex: 4;
+    margin-right: 20px;
+}
 
-    .list-cards-pop {
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 100%;
-        padding: 5%;
-        flex: 3;
-    }
+.section-pop {
+    height: 100%;
+    border-radius: 20px;
+    background: var(--main-bg-color);
+    flex: 2;
+}
 
-    .populaires-photos {
-        height: 150px;
-    }
+.list-cards-pop {
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    padding: 5%;
+    flex: 3;
+}
 
-    .card-pop {
-        width: 100%;
-        margin-bottom: 5%;
-    }
+.populaires-photos {
+    height: 150px;
+}
 
-    .card-act .text-container-act {
-        font-weight: bold;
-        color:black;
-        margin-left: 15px;
-        margin-top: 15px;
-        height: 2.5rem;
-    }
+.card-pop {
+    width: 100%;
+    margin-bottom: 5%;
+}
 
-    .image-card-act {
-        display: flex;
-        flex: 2;
-    }
+.card-act .text-container-act {
+    font-weight: bold;
+    color:black;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 2.5rem;
+}
 
-    .card-act .activites-photos {
-        height: 100%;
-    }
+.image-card-act {
+    display: flex;
+    flex: 2;
+}
 
-    .activites a {
-        display: flex;
-        flex-direction: column;
-    }
+.card-act .activites-photos {
+    height: 100%;
+}
+
+.activites a {
+    display: flex;
+    flex-direction: column;
 }
 
                                         /* Dimensions écrans tablettes */                                                        
@@ -602,11 +610,12 @@ footer a:visited {
         width: 100%;
         height: 40px;
         display: flex;
-        h2 {
-            align-self: center;
-            font-size: 18px;
-            font-weight: bold;
-        }
+    }
+
+    .filters-container h2 {
+        align-self: center;
+        font-size: 18px;
+        font-weight: bold;
     }
 
     .filters {
@@ -658,8 +667,8 @@ footer a:visited {
     }
 
     .card-act .titre-container-act {
-        margin-top: 15px;
-        margin-left: 15px;
+        margin-top: 5px;
+        margin-left: 0px;
     }
 
     .card-act .activites-photos {
@@ -719,29 +728,39 @@ footer a:visited {
     .page-title {
         margin-bottom: 20px;
         margin-left: 5%;
-        h1 {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 5px;
-            width: 69%;
-        }
+    }
+
+    .page-title h1 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        width: 100%;
     }
 
     .search-form {
         font-size: 100%;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        margin-left: 5%;
+        padding: 5%;
+        display: flex;
+        justify-content: center;
     }
 
     .search-bar {
-        width: 50%;
+        width: 100%;
+        height: 40px;
     }
 
     .search-button {
-        width: 32px;
+        width: 50px;
+        height: 50px;
         border-radius: 10px 10px 10px 10px;
         margin-left: -20px;
+        padding-top: 11px;
+    }
+
+    .fa-magnifying-glass {
+        display: block;
+        font-size: 20px;
+        padding-bottom: 10px;
     }
 
     .rechercher {
@@ -751,8 +770,8 @@ footer a:visited {
     .loc-button {
         border-radius: 0px;
         border-radius: 15px 0px 0px 15px;
-        height: 32px;
-        width: 40px;
+        height: 50px;
+        width: 50px;
         background-color: var(--main-bg-color);
         border-color: var(--main-bg-color);
         border-style: none;
@@ -761,16 +780,23 @@ footer a:visited {
     .filters-container {
         display: flex;
         flex-direction: column;
-        margin-left: 5%;
-        h2 {
-            font-size: 18px;
-            font-weight: bold;
-        }
+        width: 100%;
+        height: 100%;
     }
+    
+    .filters-container h2 {
+        font-size: 18px;
+        font-weight: bold;
+        align-self: normal;
+        padding-left: 25px;
+    }
+    
 
     .filters {
         display: flex;
         flex-wrap: wrap;
+        padding-left: 0px;
+        align-self: center;
         width: 100%;
     }
 
@@ -781,36 +807,41 @@ footer a:visited {
     .button {
         height: 2.5rem;
         width: 48%;
-        margin-top: 2%;
-        margin-right: 2%;
+        margin: 1%;
     }
 
     .title-info {
         margin-left: 5%;
-        p {
-            width: 81%;
-        }
+    }
+    
+    .title-info p {
+        width: 81%;
     }
 
     .main-section {
+        display: flex;
+        flex-direction: column-reverse;
         flex-wrap: wrap-reverse;
         justify-content: space-between;
         width: 100%;
     }
 
     .section-offre {
-        width: 100%;
-        margin-right: 7.5%;
-        margin-left: 2.5%;
+        padding-bottom: 5%;
+        background: none;
+        border: none;
+        margin-right: 0px;
     }
 
     .section-pop {
         height: 100%;
         width: 100%;
         background: var(--main-bg-color);
-        h4 {
-            width: 85%;
-        }
+        border-radius: 0px;
+    }
+    
+    .section-pop h4 {
+        width: 85%;
     }
 
     .afficher-plus {
@@ -818,7 +849,7 @@ footer a:visited {
     }
 
     .card-marseille {
-        width: 100%;
+        width: 88%;
     }
 
     .image-card-marseille {
@@ -833,7 +864,6 @@ footer a:visited {
 
     .list-cards-pop {
         flex-direction: column;
-        width: 100%;
     }
 
     .populaires-photos {
@@ -846,20 +876,22 @@ footer a:visited {
         flex: 1;
     }
 
-    .text-container-pop {
-        flex: 1.2;
-    }
-
     .image-card-pop {
         display: flex;
         flex: 1;
         height: 9rem;
     }
 
+    .populaires-photos {
+        height: initial;
+    }
+
     .card-pop {
-        margin-left: 4.5%;
-        margin-right: 4.5%;
-        margin-bottom: 2%;
+        width: 100%;
+    }
+
+    .titre-section h2 {
+        padding-left: 25px;
     }
 
     /* Activités */
@@ -868,7 +900,7 @@ footer a:visited {
     }
 
     .titre-section-act {
-        width: 40%;
+        width: 100%;
         padding-left: 0px;
     }
 
@@ -881,27 +913,32 @@ footer a:visited {
 
     .card-act {
         margin-bottom: 2%;
-        .text-container-act {
-            margin-top: -2px;
-            font-weight: bold;
-            color:black;
-        }
-        .titre-container-act {
-            margin: 15px;
-        }
-        .activites-photos {
-            height: 11rem;
-        }
+    }
+
+    .card-act .text-container-act {
+        margin-top: -2px;
+        font-weight: bold;
+        color:black;
+    }
+
+    .card-act .titre-container-act {
+        margin: 15px;
+    }
+
+    .card-act .activites-photos {
+        height: 11rem;
     }
 
     /* Footer */
     footer {
         flex-direction: column;
-        ul {
-            padding-left: 5%;
-        }
-        h3 {
-            padding-left: 5%;
-        }
+    }
+    
+    footer ul {
+        padding-left: 5%;
+    }
+
+    footer h3 {
+        padding-left: 5%;
     }
 }
